@@ -100,7 +100,16 @@ Author's custom styles
 /* ##########################   SMARTPHONE   ########################### */
 /* ##################################################################### */
 /* Extra small devices (phones, less than 768px) */
-
+.nav{
+  margin-right: 5%;
+  height: 100px;
+}
+.nav li a{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 80px;
+}
 
 
 /* ##################################################################### */
