@@ -101,24 +101,25 @@ Author's custom styles
 /* ##################################################################### */
 /* Extra small devices (phones, less than 768px) */
 /*.img-header-tablet, .img-header-desk{
-  display: none;
+display: none;
 }*/
-/*.img-header-mob{
+.img-header-mob{
   width: 100%;
   background-position: center;
   background-size: cover;
-  margin-top: 25%;
-}*/
-header{
-  background-image: url("../img/bg-home-mob.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
+  margin-top:0;
 
 }
+/*header{
+/*background-image: url("../img/bg-home-mob.jpg");*/
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+
+}*/
 .nav{
-  
+  text-align: center;
   opacity: 0.5;
 
 }
@@ -129,6 +130,10 @@ header{
   font-style: italic;
   line-height: 80px;
 }
+.navbar-brand{
+  font-size: 25px;
+}
+
 
 .figure-caption{
   font-size: 20px;
@@ -136,7 +141,7 @@ header{
   font-weight: bold;
 }
 .footer{
-  height: 50px;
+  height: 60px;
   line-height: 50px;
   font-size: 20px;
   color: white;
@@ -148,21 +153,22 @@ header{
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 607px) {
   /*.img-header-mob, .img-header-desk{
-    display: none;
-  }
-  .img-header-tablet{
-    display: unset;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+  display: none;
   }*/
-  header{
-    background-image: url("../img/bg-home-tablet.jpg");
+  .img-header-tablet{
+    width: 100%;
+    height:400px;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
+    z-index: -1;
   }
+  /*header{
+  background-image: url("../img/bg-home-tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  }*/
 
   /* ##################################################################### */
   /* ############################   DESKTOPS   ########################### */
@@ -170,21 +176,29 @@ header{
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     /*.img-header-mob, .img-header-tablet{
-      display: none;
-    }
-    .img-header-desk{
-      display: unset;
-      width: 100%;
-      background-position: center;
-      background-size: cover;
+    display: none;
     }*/
-    header{
-      background-image: url("../img/bg-home-desk.jpg");
+    .img-header-desk{
+      width: 100%;
+      height:400px;
       background-position: center;
       background-size: cover;
-      background-repeat: no-repeat;
-      height: 500px;
+      z-index: -1;
     }
+    nav{
+      z-index: 1;
+      position: absolute;
+      top:0px;
+      width: 100%;
+      opacity: 0.8;
+    }
+    /*header{
+    background-image: url("../img/bg-home-desk.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    }*/
   }
 
   /* ##################################################################### */
