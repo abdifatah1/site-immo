@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    created by abdifatah
+    twitter : https://twitter.com/abdfiatah
 
 # THANKS
 
-    <name>
+    simplon Roubaix
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+    bootstrap
