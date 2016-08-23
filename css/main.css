@@ -100,28 +100,21 @@ Author's custom styles
 /* ##########################   SMARTPHONE   ########################### */
 /* ##################################################################### */
 /* Extra small devices (phones, less than 768px) */
-/*.img-header-tablet, .img-header-desk{
-display: none;
-}*/
+body{
+  background-color: #0B3B39;
+  color:white;
+}
+/*header image*/
 .img-header-mob{
   width: 100%;
   background-position: center;
   background-size: cover;
   margin-top:0;
-
 }
-/*header{
-/*background-image: url("../img/bg-home-mob.jpg");*/
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-height: 500px;
-
-}*/
+/*nav*/
 .nav{
   text-align: center;
   opacity: 0.5;
-
 }
 
 .nav li a{
@@ -133,13 +126,16 @@ height: 500px;
 .navbar-brand{
   font-size: 25px;
 }
+/*===========/nav==========*/
 
-
+/*========fig caption=======*/
 .figure-caption{
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
 }
+/*============/fig caption=====*/
+/*========footer=========*/
 .footer{
   height: 60px;
   line-height: 50px;
@@ -152,9 +148,7 @@ height: 500px;
 /* ##################################################################### */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 607px) {
-  /*.img-header-mob, .img-header-desk{
-  display: none;
-  }*/
+/*=====img header for tablet====*/
   .img-header-tablet{
     width: 100%;
     height:400px;
@@ -162,22 +156,13 @@ height: 500px;
     background-size: cover;
     z-index: -1;
   }
-  /*header{
-  background-image: url("../img/bg-home-tablet.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  }*/
 
   /* ##################################################################### */
   /* ############################   DESKTOPS   ########################### */
   /* ##################################################################### */
   /* Medium devices (desktops, 992px and up) */
   @media (min-width: 992px) {
-    /*.img-header-mob, .img-header-tablet{
-    display: none;
-    }*/
+/*=========img header for desktop========*/
     .img-header-desk{
       width: 100%;
       height:400px;
@@ -185,44 +170,20 @@ height: 500px;
       background-size: cover;
       z-index: -1;
     }
+
+    /*=============nav==========*/
     nav{
       z-index: 1;
       position: absolute;
       top:0px;
       width: 100%;
-      opacity: 0.8;
+      opacity: 0.96;
     }
-    /*header{
-    background-image: url("../img/bg-home-desk.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    }*/
-  }
-
-  /* ##################################################################### */
-  /* ########################   LARGE DESKTOPS   ######################### */
-  /* ##################################################################### */
-  /* Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
 
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ==========================================================================
+/* ==========================================================================
   Helper classes
   ========================================================================== */
 
